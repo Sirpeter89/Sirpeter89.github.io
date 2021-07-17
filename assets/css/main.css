@@ -1675,3 +1675,9 @@ input, select, textarea {
 			background-size: cover;
 			margin-bottom: 1rem;
 		}
+
+/*Project Description*/
+		#project_title{
+			font-size: 30px;
+			font-weight: 800;
+		}
