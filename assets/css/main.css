@@ -1681,3 +1681,8 @@ input, select, textarea {
 			font-size: 30px;
 			font-weight: 800;
 		}
+		#sample_gif{
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
