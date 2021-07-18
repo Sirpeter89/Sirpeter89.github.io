@@ -1686,3 +1686,6 @@ input, select, textarea {
 			height: 100%;
 			object-fit: contain;
 		}
+		.devicon-devicon-plain {
+			max-width: 2em;
+		}
