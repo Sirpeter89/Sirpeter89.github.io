@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/lightbg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1689,3 +1689,31 @@ input, select, textarea {
 		.devicon-devicon-plain {
 			max-width: 2em;
 		}
+
+.skills{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.skill{
+	width: 50%;
+	height: 10%;
+	font-size: 1.6rem;
+	/* background-color: yellow; */
+}
+
+.skill-intro{
+	margin-bottom: 5%;
+	width: 100%;
+	font-size: .9rem;
+}
+
+.skill-end{
+	margin-top: 5%;
+	width: 100%;
+	font-size: .9rem;
+}
